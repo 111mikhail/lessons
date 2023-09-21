@@ -1,0 +1,42 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+h1{
+	color: rgb(6, 250, 79);
+}
+h2{
+	color: rgb(160, 194, 37);
+}
+li{
+	color: blueviolet;
+}
+a{
+	color: blue;
+}
+
+
+.title p {
+	color: rgb(170, 218, 38);
+}
+
+.content p{
+   color: sandybrown;
+}
+
+
+.content + p{
+	color: white;
+}
+
+
+.content > ul + p {
+	color: red;
+}
+.content > ol + p{
+	color: springgreen;
+}
+
+#joke{
+	color: darkcyan;
+}
