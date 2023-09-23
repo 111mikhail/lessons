@@ -1,0 +1,13 @@
+/* Підключення вручну */
+
+
+@font-face {
+	font-family: "DancingScript";
+	src:
+		url("../fonts/MiConv.com__DancingScript-Medium.woff2") format("woff2"),
+      url("../fonts/MiConv.com__DancingScript-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
