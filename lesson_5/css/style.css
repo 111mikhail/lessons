@@ -1,0 +1,128 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Підключення вручну */
+@import url("fonts");
+/*------------------- Підключення шрифтів ------------------------- 
+font-family: Inter;
+font-weight: 400;
+font-family: Poppins;
+font-weight: 600;
+font-weight: 700; */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+/*----------------------*/
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Skranji:regular&display=swap");
+/* Основні стилі */
+body{
+	font-size: 18px;
+}
+h1,
+h2,
+h3
+{
+	text-align: center;
+	font-family: "Lobster", sans-serif;
+	line-height: 2;
+	letter-spacing: 2px;
+}
+
+ol,
+ul{
+	text-indent: 30px;
+	font-family: "Skranji", sans-serif;
+	color: orange;
+
+}
+
+a{
+	color: rgba(101, 47, 163, 0.849);
+	text-decoration: underline;
+	text-shadow:1px 2px 6px rgba(157, 199, 42, 0.849);
+	line-height: 4.8;
+
+}
+
+span{
+	color: lightcoral;
+	font-weight: 800;
+	font-family: "DancingScript", sans-serif;
+
+}
+
+.text p{
+	font-family: "EB+Garamond", sans-serif;
+	color: rgba(94, 20, 78, 0.582);
+}
+
+.title h1{
+	color: red;
+	text-transform: uppercase;
+	text-shadow:3px 3px 6px rgb(30, 142, 194);
+	font-size: 22px;
+}
+.text h2{
+	font-size: 20px;
+	color: rgba(2, 8, 68, 0.76);
+	text-shadow:-1px 3px 6px rgba(46, 196, 53, 0.479);
+}
+
+.text h3{
+	font-size: 18px;
+	color: darkolivegreen;
+}
+
+.text > ol + p {
+	color: red;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.the-and{
+	font-family: "DancingScript", sans-serif;
+   text-align: right;
+}
+
+.the-and p{
+	color: rgb(51, 155, 155);
+	letter-spacing: 3px;
+}
+/*----------------------   по макету ConsultingWebsiteTemplate  ---------------------*/
+.sub-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+.sub-title h4{
+	color: #37393F;
+	font-size: 30px;
+   font-weight: 600;
+	line-height: 2.1;
+}
+.sub-title h5{
+	color: #6B77E5;
+   font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.sub-title h6{
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 2.82;		
+}
+
+.sub-text {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.text-list li{
+	color: #7D7D7D;                 /*якщо закомкнтувати то повернуться властивості які вище :)  -Ol- та -UL- */
+	font-family: "Inter", sans-serif; /*якщо закомкнтувати то повернуться властивості які вище :)  -Ol- та -UL- */
+	font-weight: 500;
+	line-height: 1.5;
+}
