@@ -1,0 +1,123 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+/* Основні стилі */
+.content {
+	display: block;
+	max-width: 690px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	color: #7D7D7D;	
+	font-size: 18px;
+	font-weight: 400;
+}
+.image {
+	width: 100%;
+	margin: 0px 0px 24px 0px;
+}
+.title {
+	display: inline-block;
+	max-width: 100%;
+	margin: 0 auto 50px;
+	line-height: 1.5;
+}
+
+.title h1{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	text-transform: capitalize;
+	line-height: 1.27;
+}
+.title h2{
+	margin: 40px 0px 0px 0px;
+	color: #6B77E5;
+	font-family: Poppins;
+	font-size: 20px;
+	line-height: 1.27;
+}
+
+
+.title-two {
+	display: block;
+	margin: 0 auto;
+	font-size: 0;
+	padding: 40px 0px 0px 0px;
+}
+.image-two {
+	margin: 0px 15px 0px 0px;
+}
+.text-two {
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.text-two h3{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 25px;
+	line-height: 1.27;
+}
+.text-two h4{
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 20px;
+	line-height: 1.27;
+}
+.text-two li{
+	margin: 24px 0px;
+	font-size: 18px;	
+}
+
+/*другий блок*/
+.content-decoration {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 100%;
+
+}
+
+.text-decoration {
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 50%;
+	vertical-align: top;
+	margin: 0px 20px 0px 0px;
+	color: #474747;
+	font-family: Inter;
+	font-size: 20px;
+	line-height: 1.8;	
+
+}
+.text-decoration h6{
+	color: #D06B00;	
+	font-family: Inter;
+	font-size: 28px;
+	text-transform:uppercase;
+}
+.text-decoration h5{
+	font-family: DM Serif Text;
+	font-size: 59px;	
+	text-transform: capitalize;
+	margin: 0px 0px 25px 0px;
+
+}
+.block-image{
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.one-decoration{
+	display: inline;
+	margin: 0px 10px 0px 0px;
+}
+
+.two-decoration{
+	display: inline;
+}
